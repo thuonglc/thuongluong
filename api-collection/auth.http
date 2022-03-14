@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:3000/api
+
+# @name Login
+
+POST {{baseUrl}}/user/login
+Content-Type: application/json
+
+{
+  "email": "thuongresper@gmail.com",
+  "password": "Texx#1312"
+}

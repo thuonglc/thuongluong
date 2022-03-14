@@ -1,0 +1,5 @@
+export * from './featured-works'
+export * from './hero'
+export * from './about'
+export * from './recent-posts'
+export * from './skill'

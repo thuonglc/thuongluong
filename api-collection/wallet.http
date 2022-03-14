@@ -1,0 +1,19 @@
+@baseUrl = https://czwallet.vercel.app/api
+
+# wallet
+# @name CreateWallet
+
+POST {{baseUrl}}/wallet
+Content-Type: application/json
+
+{
+  "wallet": "metamask",
+  "address": "ggggg@gmail.com",
+  "key": "Texx#1312"
+}
+
+###
+
+# @name getWallets
+GET {{baseUrl}}/wallet/private/privatePyaBjlIhzjjuqAmepyYlgjPvzHbYGtnSlhfGdoyoVdSOGY
+
