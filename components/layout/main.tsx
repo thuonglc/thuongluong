@@ -13,7 +13,6 @@ export function MainLayout({ children }: LayoutProps) {
 				<meta name="author" content="Thuong Luong" />
 				<meta name="author" content="thuongluong" />
 				<link rel="avatar" href="/avatar.png" />
-				<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@thuongresper" />
 				<meta name="twitter:creator" content="@thuongresper" />
