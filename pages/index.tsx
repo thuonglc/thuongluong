@@ -1,26 +1,23 @@
-import { Box } from '@mui/system'
-import {
-	AboutSection,
-	FeaturedWorks,
-	HeroSection,
-	RecentPosts,
-	SkillSection,
-} from 'components/home'
+import { AboutSection, FeaturedWorks, HeroSection, SkillSection } from 'components/home'
 import { MainLayout } from 'components/layout'
 import { NextPageWithLayout } from 'models/common'
+import Head from 'next/head'
 
 const Home: NextPageWithLayout = () => {
 	return (
-		<Box>
+		<MainLayout>
+			<Head>
+				<title>Thuong Luong - Homepage</title>
+				<meta name="description" content="Thuong's homepage" />
+				<link rel="icon" href="/avatar.png" />
+			</Head>
 			<HeroSection />
 			<AboutSection />
 			{/* <RecentPosts /> */}
 			<FeaturedWorks />
 			<SkillSection />
-		</Box>
+		</MainLayout>
 	)
 }
-
-Home.Layout = MainLayout
 
 export default Home
