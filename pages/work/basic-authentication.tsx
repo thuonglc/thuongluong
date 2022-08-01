@@ -67,9 +67,9 @@ export default function BasicAuthentication() {
 							</ListItem>
 							<ListItem alignItems="flex-start" disableGutters>
 								<Meta>Github</Meta>
-								<Link href="https://github.com/thuong-resper/-uni-basic-authentication" passHref>
+								<Link href="https://github.com/thuonglc/-uni-basic-authentication" passHref>
 									<MuiLink underline="hover" mx={1}>
-										https://github.com/thuong-resper/-uni-basic-authentication
+										https://github.com/thuonglc/-uni-basic-authentication
 									</MuiLink>
 								</Link>
 							</ListItem>

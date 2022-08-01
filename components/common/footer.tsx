@@ -11,19 +11,19 @@ export function Footer() {
 	return (
 		<Box component="footer" py={3} mt={2} textAlign="center">
 			<Stack direction="row" spacing={3} justifyContent="center">
-				<Box component="a" href="https://www.facebook.com/ThuongResper" target="_blank">
+				<Box component="a" href="https://www.facebook.com/thuongresper" target="_blank">
 					<FacebookIcon />
 				</Box>
-				<Box component="a" href="https://www.instagram.com/thuongresper/" target="_blank">
+				<Box component="a" href="https://www.instagram.com/_resper" target="_blank">
 					<InstagramIcon />
 				</Box>
 				<Box component="a" href="https://twitter.com/thuongresper" target="_blank">
 					<TwitterIcon />
 				</Box>
-				<Box component="a" href="https://www.linkedin.com/in/thuong-resper/" target="_blank">
+				<Box component="a" href="https://www.linkedin.com/in/thuongluong" target="_blank">
 					<LinkedInIcon />
 				</Box>
-				<Box component="a" href="https://github.com/thuong-resper" target="_blank">
+				<Box component="a" href="https://github.com/thuonglc" target="_blank">
 					<GitHubIcon />
 				</Box>
 			</Stack>

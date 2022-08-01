@@ -7,7 +7,7 @@ import * as React from 'react'
 
 const images = [
 	{
-		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1647239496/thuongresper.io/work/rsa/Capture_fj0pq5.png',
+		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659354604/thuongresper.io/work/rsa/rsa_pnnfp4.png',
 		alt: 'rsa',
 	},
 ]
@@ -20,7 +20,7 @@ export default function RsaSignature() {
 				<Stack direction="column">
 					<Box mt={2}>
 						<Typography key="3" color="text.primary">
-							RSA signature is an webapp allows to sign and authenticate a number txt file that
+							RSA signature is a web app allows to sign and authenticate a number txt file that
 							based on Euclid algorithm for GCD.
 						</Typography>
 						Modules:
@@ -56,9 +56,9 @@ export default function RsaSignature() {
 							</ListItem>
 							<ListItem alignItems="flex-start" disableGutters>
 								<Meta>Github</Meta>
-								<Link href="https://github.com/thuong-resper/rsa-signature" passHref>
+								<Link href="https://github.com/thuonglc/rsa-signature" passHref>
 									<MuiLink underline="hover" mx={1}>
-										https://github.com/thuong-resper/rsa-signature
+										https://github.com/thuonglc/rsa-signature
 									</MuiLink>
 								</Link>
 							</ListItem>

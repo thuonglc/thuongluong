@@ -7,7 +7,7 @@ import * as React from 'react'
 
 const images = [
 	{
-		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1643204598/thuongresper.io/work/respershop/des1_spxjk0.png',
+		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659351629/thuongresper.io/work/respershop/des1_e1qy5m.png',
 		alt: 'shop1',
 	},
 	{
@@ -19,16 +19,20 @@ const images = [
 		alt: 'shop3',
 	},
 	{
-		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1643204599/thuongresper.io/work/respershop/des2_morcsc.png',
+		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659352188/thuongresper.io/work/respershop/des3_zhyqfe.png',
 		alt: 'shop4',
 	},
 	{
-		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1643204597/thuongresper.io/work/respershop/des10_xlwgbt.png',
+		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659352188/thuongresper.io/work/respershop/des4_ehpod7.png',
 		alt: 'shop5',
 	},
 	{
-		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1643204599/thuongresper.io/work/respershop/des5_z9c6bu.png',
+		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659351629/thuongresper.io/work/respershop/des2_ilbmbx.png',
 		alt: 'shop6',
+	},
+	{
+		src: 'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1643204599/thuongresper.io/work/respershop/des5_z9c6bu.png',
+		alt: 'shop7',
 	},
 ]
 
@@ -40,10 +44,14 @@ export default function ResperShop() {
 				<Stack direction="column">
 					<Box mt={2}>
 						<Typography key="3" color="text.primary">
-							Respershop is a basic e-commerce site. Allows purchase of technology products such as
-							phones, laptops, ipads, watches... The website includes admin and user sections in the
-							Vietnamese language. The current website just stops at research and learning. This is
-							a personal graduation project and scored 9 points.
+							This is a side project I use the main MERN stack and others tools to build. It helped
+							me improve my frontend, backend, and database skills and I tried to optimize code in
+							all sections.
+						</Typography>
+						<Typography key="3" color="text.primary">
+							My reference is a popular website called thegioididong. Respershop allows users to add
+							to cart, buy products, pay, and ship. In addition, I also built an admin section that
+							allows admins to manage products, categories, users, discount codes, and orders.
 						</Typography>
 						Modules:
 						<ol>
@@ -81,9 +89,9 @@ export default function ResperShop() {
 							</ListItem>
 							<ListItem alignItems="flex-start" disableGutters>
 								<Meta>Github</Meta>
-								<Link href="https://github.com/thuong-resper/resper-shop" passHref>
+								<Link href="https://github.com/thuonglc/resper-shop" passHref>
 									<MuiLink underline="hover" mx={1}>
-										https://github.com/thuong-resper/resper-shop
+										https://github.com/thuonglc/resper-shop
 									</MuiLink>
 								</Link>
 							</ListItem>

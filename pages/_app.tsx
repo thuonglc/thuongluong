@@ -7,12 +7,14 @@ import { createTheme, ThemeProvider, useTheme } from '@mui/material/styles'
 import axiosClient from 'apis/axios-client'
 import { EmptyLayout } from 'components/layout'
 import { AppPropsWithLayout } from 'models'
-import { createContext, useContext, useMemo, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { SWRConfig } from 'swr'
 import { createEmotionCache, getDesignTokens, overrideTheme } from 'utils'
 import '../styles/globals.css'
 
-const ColorModeContext = createContext({ toggleColorMode: () => {} })
+const ColorModeContext = createContext({
+	toggleColorMode: () => {},
+})
 
 export function ButtonChangeMode() {
 	const theme = useTheme()
@@ -32,13 +34,31 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
 	// set mode
 	const [mode, setMode] = useState<'light' | 'dark'>('light')
+
+	// check localStorage
+	useEffect(() => {
+		const existingPreference = localStorage.getItem('darkState')
+		if (existingPreference) {
+			existingPreference === 'light' ? setMode('light') : setMode('dark')
+		} else {
+			setMode('light')
+			localStorage.setItem('darkState', 'light')
+		}
+	}, [])
 	const colorMode = useMemo(
 		() => ({
 			toggleColorMode: () => {
 				setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'))
+				if (mode === 'light') {
+					setMode('dark')
+					localStorage.setItem('darkState', 'dark')
+				} else {
+					setMode('light')
+					localStorage.setItem('darkState', 'light')
+				}
 			},
 		}),
-		[]
+		[mode]
 	)
 	const theme = useMemo(() => createTheme(overrideTheme, getDesignTokens(mode)), [mode])
 
@@ -57,4 +77,5 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 		</CacheProvider>
 	)
 }
+
 export default MyApp

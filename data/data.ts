@@ -3,7 +3,7 @@ export const works = [
 		title: 'Building an E-commerce webapp from scratch',
 		slug: 'resper-shop',
 		image:
-			'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1643204598/thuongresper.io/work/respershop/des1_spxjk0.png',
+			'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659351629/thuongresper.io/work/respershop/des1_e1qy5m.png',
 		year: 2021,
 		field: 'E-commerce',
 		description:
@@ -22,7 +22,7 @@ export const works = [
 		title: 'RSA digital signature',
 		slug: 'rsa-signature',
 		image:
-			'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1647239496/thuongresper.io/work/rsa/Capture_fj0pq5.png',
+			'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659354604/thuongresper.io/work/rsa/rsa_pnnfp4.png',
 		year: 2022,
 		field: 'Signature',
 		description: 'Build, deploy an RSA digital signature demo app for authenticate the txt file',

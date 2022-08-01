@@ -1,6 +1,5 @@
-import { Container, Stack, Tooltip, Typography } from '@mui/material'
+import { Container, Stack, Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import BlueButton from 'components/ui-component/Button/BlueButton'
 import BrandButton from 'components/ui-component/Button/BrandButton'
 import FullRoundButton from 'components/ui-component/Button/FullRoundButton'
 import Icons from 'components/ui-component/icon'
@@ -59,9 +58,11 @@ export function SkillSection() {
 						<BrandButton href="https://expressjs.com/">
 							<Icons.ExpressJs />
 						</BrandButton>
-
 						<BrandButton href="https://getbootstrap.com/">
 							<Icons.Bootstrap />
+						</BrandButton>
+						<BrandButton href="https://tailwindui.com/">
+							<Icons.TailwindCss />
 						</BrandButton>
 					</Box>
 				</Stack>
