@@ -10,6 +10,15 @@ export const works = [
 			'Build, deploy, and scale an E-Commerce app using MERN stack including MongoDB, Express, Node and React',
 	},
 	{
+		title: 'Building an music website from scratch',
+		slug: 'resper-music',
+		image:
+			'https://res.cloudinary.com/dfxk0fqfp/image/upload/v1659988590/thuongresper.io/work/music1_kfx1yh.png',
+		year: 2022,
+		field: 'Music',
+		description: 'Build and deploy an online music website based on Nextjs and PostgreSQL',
+	},
+	{
 		title: 'Basic authentication',
 		slug: 'basic-authentication',
 		image:
