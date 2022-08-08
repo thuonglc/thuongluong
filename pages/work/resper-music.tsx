@@ -93,4 +93,4 @@ export default function ResperMusic() {
 	)
 }
 
-ResperShop.Layout = MainLayout
+ResperMusic.Layout = MainLayout
