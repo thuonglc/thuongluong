@@ -17,7 +17,7 @@ export function SkillSection() {
 						mb: { xs: 3.5, md: 5 },
 					}}
 				>
-					Skill
+					Skills
 				</Typography>
 				<Stack
 					direction="column"

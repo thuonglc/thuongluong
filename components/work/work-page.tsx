@@ -40,7 +40,7 @@ export const WorkImage = ({ src, alt }: Image) => (
 			},
 		}}
 	>
-		<Image src={src} alt={alt} width="100%" height={70} layout="responsive" priority />
+		<Image src={src} alt={alt} width={820} height={460} layout="responsive" priority />
 	</Box>
 )
 
